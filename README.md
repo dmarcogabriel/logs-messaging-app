@@ -20,6 +20,10 @@ commands:
 To start the producer run `$ yarn start` on `src/producer` directory, the same 
 is on consumer run `$ yarn start` on `src/consumer` directory.
 
+> #### Note
+>
+> The production is not so different from development mode yet... but it will be
+
 To run app in development mode, run `$ yarn dev` on each directories (producer 
 and consumer).
 
