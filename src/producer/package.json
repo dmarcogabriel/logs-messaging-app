@@ -1,0 +1,22 @@
+{
+  "name": "logs-producer-app",
+  "version": "1.0.0",
+  "author": "Gabriel De Marco <biel_dmarco@hotmail.com>",
+  "main": "app/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node app/index.js",
+    "lint": "eslint app --fix"
+  }
+}
